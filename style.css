@@ -699,6 +699,10 @@ body.light nav a {
 body.light .menu-icon {
   color: #2d3748;
 }
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {

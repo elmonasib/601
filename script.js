@@ -234,4 +234,11 @@ document.addEventListener("DOMContentLoaded", () => {
       navLinks.classList.remove("show");
     }
   });
+
+  // إغلاق القائمة عند النقر على رابط (للهاتف)
+  document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove("show");
+    });
+  });
 });

@@ -19,12 +19,12 @@
     </div>
     
     <nav id="nav-links">
-      <a href="#"><i class="fas fa-home"></i> الرئيسية</a>
-      <a href="#"><i class="fas fa-trophy"></i> المباريات</a>
-      <a href="#"><i class="fas fa-users"></i> الأخبار</a>
-      <a href="#"><i class="fas fa-globe"></i> انتقالات</a>
-      <a href="#"><i class="fas fa-envelope"></i> اتصل بنا</a>
-    </nav>
+  <a href="#home"><i class="fas fa-home"></i> الرئيسية</a>
+  <a href="#matches"><i class="fas fa-trophy"></i> المباريات</a>
+  <a href="#news"><i class="fas fa-users"></i> الأخبار</a>
+  <a href="#transfers"><i class="fas fa-globe"></i> انتقالات</a>
+  <a href="#contact"><i class="fas fa-envelope"></i> اتصل بنا</a>
+</nav>
 
     <button class="theme-toggle" id="theme-toggle">
       <i class="fas fa-moon"></i>
@@ -34,7 +34,7 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero" id="home">
     <h1>🏆 مباريات اليوم</h1>
     <p>تابع جميع المباريات والأخبار الرياضية لحظة بلحظة</p>
   </section>
@@ -54,24 +54,24 @@
   </div>
 
   <!-- Matches Grid -->
-  <div class="matches-container">
+  <div class="matches-container" id="matches">
     <div class="matches-grid" id="matches-grid"></div>
   </div>
 
   <!-- News Section -->
-  <section class="section">
-    <h2 class="section-title">
-      <i class="fas fa-newspaper"></i>
-      أحدث الأخبار
+  <section class="section" id="news">
+  <h2 class="section-title">
+    <i class="fas fa-newspaper"></i>
+    أحدث الأخبار
     </h2>
     <div class="cards-container" id="news-container"></div>
   </section>
 
   <!-- Transfers Section -->
-  <section class="section">
-    <h2 class="section-title">
-      <i class="fas fa-exchange-alt"></i>
-      انتقالات اللاعبين والمدربين
+  <section class="section" id="transfers">
+  <h2 class="section-title">
+    <i class="fas fa-exchange-alt"></i>
+    انتقالات اللاعبين
     </h2>
     <div class="cards-container" id="transfers-container"></div>
   </section>
@@ -89,7 +89,7 @@
   </div>
 
   <!-- Footer -->
-  <footer>
+  <footer id="contact">
     <p>© 2025 مباريات الأسبوع - جميع الحقوق محفوظة</p>
     <div class="social-icons">
       <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
